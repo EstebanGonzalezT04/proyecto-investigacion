@@ -1,0 +1,17 @@
+# Entornos / cache
+__pycache__/
+*.pyc
+
+# Conda / venv
+*.conda
+.env
+.venv/
+
+# Resultados generados (se regeneran con runall)
+resultados/
+datos/raw/
+datos/processed/
+
+# Windows
+Thumbs.db
+Desktop.ini
