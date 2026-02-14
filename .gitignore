@@ -1,17 +1,24 @@
-# Entornos / cache
+# Python cache
 __pycache__/
 *.pyc
 
-# Conda / venv
+# Conda / virtual environments
 *.conda
 .env
 .venv/
+env/
+venv/
 
-# Resultados generados (se regeneran con runall)
-resultados/
-datos/raw/
-datos/processed/
+# Generated data (se regeneran con runall)
+data/raw/
+data/processed/
 
-# Windows
+# Generated results (no versionar outputs)
+results/
+
+# OS files
 Thumbs.db
 Desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
