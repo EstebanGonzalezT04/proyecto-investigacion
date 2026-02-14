@@ -9,7 +9,7 @@ def main():
     # project_root es la carpeta raiz: .../proyecto_investigacion
     project_root = Path(__file__).resolve().parents[1]
 
-    raw_dir = project_root / "datos" / "raw"
+    raw_dir = project_root / "data" / "raw"
     raw_dir.mkdir(parents=True, exist_ok=True)
 
     n = 500  # numero de observaciones

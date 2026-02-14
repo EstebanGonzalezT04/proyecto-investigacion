@@ -6,8 +6,8 @@ import pandas as pd
 def main():
     project_root = Path(__file__).resolve().parents[1]
 
-    clean_path = project_root / "datos" / "processed" / "clean_data.csv"
-    results_dir = project_root / "resultados"
+    clean_path = project_root / "data" / "processed" / "clean_data.csv"
+    results_dir = project_root / "results" / "tables"
     results_dir.mkdir(parents=True, exist_ok=True)
 
     df = pd.read_csv(clean_path)
