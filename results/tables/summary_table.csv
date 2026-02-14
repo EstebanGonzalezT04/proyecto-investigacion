@@ -1,0 +1,7 @@
+metric,value
+n_observations,480.0
+mean_interarrival_min,2.0188553563372937
+mean_service_min,3.018796407319225
+mean_demand_units,19.708333333333332
+p95_service_min,7.67228614920774
+utilization_proxy,1.495300987187152
