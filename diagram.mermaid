@@ -1,0 +1,10 @@
+flowchart TD
+
+%% Procesos
+A[Generación de datos sintéticos] --> B[(data/raw/raw_data.csv)]
+B --> C[Limpieza de datos]
+C --> D[(data/processed/clean_data.csv)]
+D --> E[Análisis de datos]
+E --> F[(results/tables/summary_table.csv)]
+E --> G[Generación de gráficos]
+G --> H[(results/figures/plot.png)]
