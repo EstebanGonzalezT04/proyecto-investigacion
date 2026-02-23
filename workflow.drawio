@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.5.2">
+  <diagram name="workflow_drawio" id="bbOQ3MXTdpYeG2plvDcM">
+    <mxGraphModel dx="756" dy="1224" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HK4qptmMIIVunwauyWR6-10" edge="1" parent="1" source="HK4qptmMIIVunwauyWR6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HK4qptmMIIVunwauyWR6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HK4qptmMIIVunwauyWR6-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;li data-start=&quot;642&quot; data-end=&quot;676&quot;&gt;&lt;p data-start=&quot;644&quot; data-end=&quot;676&quot;&gt;Generación de datos sintéticos&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HK4qptmMIIVunwauyWR6-14" edge="1" parent="1" source="HK4qptmMIIVunwauyWR6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HK4qptmMIIVunwauyWR6-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HK4qptmMIIVunwauyWR6-15" edge="1" parent="1" source="HK4qptmMIIVunwauyWR6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HK4qptmMIIVunwauyWR6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HK4qptmMIIVunwauyWR6-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;li data-start=&quot;699&quot; data-end=&quot;720&quot;&gt;&lt;p data-start=&quot;701&quot; data-end=&quot;720&quot;&gt;Análisis de datos&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HK4qptmMIIVunwauyWR6-16" edge="1" parent="1" source="HK4qptmMIIVunwauyWR6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HK4qptmMIIVunwauyWR6-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170.0666666666666" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HK4qptmMIIVunwauyWR6-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Generación de gráficos" vertex="1">
+          <mxGeometry height="60" width="120" x="910" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HK4qptmMIIVunwauyWR6-12" edge="1" parent="1" source="HK4qptmMIIVunwauyWR6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HK4qptmMIIVunwauyWR6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HK4qptmMIIVunwauyWR6-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;li data-start=&quot;677&quot; data-end=&quot;698&quot;&gt;&lt;p data-start=&quot;679&quot; data-end=&quot;698&quot;&gt;Limpieza de datos&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HK4qptmMIIVunwauyWR6-11" edge="1" parent="1" source="HK4qptmMIIVunwauyWR6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HK4qptmMIIVunwauyWR6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HK4qptmMIIVunwauyWR6-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;li data-start=&quot;833&quot; data-end=&quot;858&quot;&gt;&lt;p data-start=&quot;835&quot; data-end=&quot;858&quot;&gt;data/raw/raw_data.csv&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="80" width="140" x="273.5" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="HK4qptmMIIVunwauyWR6-13" edge="1" parent="1" source="HK4qptmMIIVunwauyWR6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="HK4qptmMIIVunwauyWR6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HK4qptmMIIVunwauyWR6-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;li data-start=&quot;859&quot; data-end=&quot;892&quot;&gt;&lt;p data-start=&quot;861&quot; data-end=&quot;892&quot;&gt;data/processed/clean_data.csv&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="450" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="HK4qptmMIIVunwauyWR6-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;ul data-start=&quot;833&quot; data-end=&quot;958&quot;&gt;&lt;li data-start=&quot;930&quot; data-end=&quot;958&quot;&gt;&lt;p data-start=&quot;932&quot; data-end=&quot;958&quot;&gt;results/figures/plot.png&lt;/p&gt;&lt;br/&gt;&lt;/li&gt;&lt;br/&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="80" width="170" x="1120" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="HK4qptmMIIVunwauyWR6-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;li data-start=&quot;893&quot; data-end=&quot;929&quot;&gt;&lt;p data-start=&quot;895&quot; data-end=&quot;929&quot;&gt;results/tables/summary_table.csv&lt;/p&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="870" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
